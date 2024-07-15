@@ -84,7 +84,7 @@ margin-top: 3px;
 .first-sec-btn{
     border-radius: 8px;
 
-background: rgb(13, 19, 33);
+background: rgb(45, 45, 45);
 
 position: static;
 width: 240px;
@@ -114,6 +114,10 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+}
+.first-sec-btn:hover{
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(175, 175, 175);
 }
 .challange-accepted{
     color: white;
@@ -186,13 +190,23 @@ opacity: 0.7;
 .second-sec-first-part,.second-sec-third-part{
     border-radius: 16px;
 
-    background: linear-gradient(90.00deg, rgb(215, 215, 215),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(236, 236, 236),rgba(255, 255, 255, 0) 100%);
 }
 .second-sec-second-part{
     border-radius: 16px;
 
-background: linear-gradient(270.00deg, rgb(215, 215, 215),rgba(255, 255, 255, 0) 100%);
+background: linear-gradient(270.00deg, rgb(236, 236, 236),rgba(255, 255, 255, 0) 100%);
 }
+.second-sec-third-part:hover{
+    background-color: rgb(235, 235, 235);
+}
+.second-sec-second-part:hover{
+    background-color: rgb(235, 235, 235);
+}
+.second-sec-first-part:hover{
+    background-color: rgb(235, 235, 235);
+}
+
 .second-sec-mini-title{
     color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
