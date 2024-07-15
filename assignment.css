@@ -389,15 +389,13 @@ transition: 1s;
     margin-bottom: 48px;
 }
 .sixth-sec{
-    border-radius: 16px;
-
     background: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(assets/handshake.jpg);
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 320px;
-    width: 100%;
+    /* width: 10px; */
       margin-bottom: 79px;
 }
 .sixth-sec-start{
@@ -630,18 +628,20 @@ iframe{
 }
 .sixth-sec{
    
-    width: 300px;
+    width: auto;
     height: auto;
 }
 .sixth-sec-start{
     padding: 0px;
-    
+    width: 100%;
+    padding: 0px 0px;
 }
 .sixth-sec-help{
     font-size: 25px;
 }
 .sixth-sec-bio{
     font-size: 13px;
+    padding: 0px 30px;
 }
 .sixth-sec-text-box{
     width: auto;
@@ -651,6 +651,9 @@ iframe{
     width: auto;
     height: 30px;
 }
+.sixth-sec-last-part{
+    padding: 0px 0px;
+}
 input[type=submit]{
     font-size: 12px;
 }
@@ -659,10 +662,11 @@ input[type=submit]{
 }
 .footer-sec{
     width: auto;
- flex-direction: column;
+ flex-direction: column-reverse;
+
  justify-content: center;
- align-items: start;
- padding: 0px;
+padding-bottom: 0px;
+ padding-top: 20px;
 
 }
 .footer-bio{
